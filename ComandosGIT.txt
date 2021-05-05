@@ -32,6 +32,21 @@ git push /se utiliza primero de esta forma simple para que github nos pida las c
 
 git push origin master /sirve para hacer la subida de los cambios desde la carpeta del proyecto en tu computador hacia github, te pedira las credenciales usuario y contraseña de githhub, en caso de ser hacia otra rama o branch solo debes cambiar la palabra master por el de la rama.
 
+git remote add origin XXXXXXLINKXXXXXX /sirve para cargar un repositorio local ya estando posicionados en la ruta o carpeta del proyecto a uno en github, donde se debe haber creado un repositorio basio en github, copiar su link y remplazar las XXLINKXX del ejemplo por el link del repositorio destino en github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

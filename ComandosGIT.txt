@@ -28,6 +28,8 @@ git log /sirve para que nos muestre todos los cambios que se han echo durante el
 
 git clone XXXXXXXXXX /sirve para clonar un repositorio ya existente en la nube de github hacia la ruta especifica eb tu computador personal, donde las X son el URL que te da GITHUB del repositorio que quieres clonar.
 
+git push /se utiliza primero de esta forma simple para que github nos pida las credenciales usuario y contraseña para asi poder hacer mach a nuestra cuenta en github y recien alli subir los archivos al repositorio de github.
+
 git push origin master /sirve para hacer la subida de los cambios desde la carpeta del proyecto en tu computador hacia github, te pedira las credenciales usuario y contraseña de githhub, en caso de ser hacia otra rama o branch solo debes cambiar la palabra master por el de la rama.
 
 

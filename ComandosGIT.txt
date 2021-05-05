@@ -1,0 +1,53 @@
+-----------------todos se usan en consola---------------
+
+git init /para crear el repositorio del proyecto que vas a trabajar, debes crearlo en la carpeta donde se guardara el proyecto, mientras no se haga push a GITHUB el proyecto solo existe en esa carpeta fisica y en ningun otro lugar.
+
+cd XXXXXXX /es para movernos en la direccion de las carpetas de nuestro computador donde las 'X' son la direccion a ingresar de la carpeta donde nos queremos ubicar
+
+cd .git /para ingresar desde la terminal en el repositorio git que emos creado en la carpeta del proyecto a trabajar
+
+cd .. /es para retroceder en el directorio de las carpetas desde consola
+
+cls /es para limpiar la pantalla de la consola
+
+git status /para consultar el estatus actual de la carpeta donde fue creado el repositorio GIT y asi constatar si existe algun cambio que GIT aun no a respaldado
+
+git add . /es para añadir todo lo que se encuentra en la posicion actual de cd hacia el repositorio oculto de GIT
+
+git commit -m "XXXXX X XXXX X XXX" /es para crear los comit(comentarios que estarian entre las comillas donde ahora estan las X) sin abrir BIM y que ademas cree la imagen respaldo de la version anteroir a la modificacion que ahora se esta comentando, ademas de añadir la version que se esta comentando al repositorio oculto de GIT
+
+#EL DOCUMENTO .gitignore se utiliza para declarar dentro del documento que archivos o carpetas deben ser ignorados luego de subir a git los git status, git ad y git commit con el que comentaremos la creacion del gitignore ##
+
+git checkout XXXXXX /sirve para recuperar un archivo eliminado de la carpeta fisica en tu equipo, donde las X serian el nombre del archivo, lo utilizamos para viajar en el tiempo entre las diferentes versiones de nuestro proyecto, para hacerlo de ese modo en lugar de colocar el nombre del archivo se deben colocar o pegar los primeros 6 caracteres del identificador del commit al que queremos regresar, de esa forma todo se revertira hasta ese momento del proyecto, es decir hasta ese commit (comentario).
+
+git checkout -b XXXX /sirve para que de una version ya generada anteroirmente, crear un nuevo branch, es decir modificar desde una version anteroir generando una nueva version desde alli (una nueva rama) pero de igual forma teniendo el historial desde log de las veriones que siguieron luega de esta.
+
+git rm XXXX /sirve para borrar desde consola GIT un archivo de la carpeta donde se esta trabajando el proyecto con GIT.
+
+git log /sirve para que nos muestre todos los cambios que se han echo durante el trabjo con GIUT en el proyecto, es decir nos muestra nuestros commit (comentarios), para salir de git log se debenb presionar ctrl + Z y se detiene, los identificadores de cada commit sirven para viajar en el tiempo del proyecto al punto de cada commit, se utilizan (copian) los primeros 6 digitos del id del commit al que queremos viajar y se pegan al usar git checkout.
+
+git clone XXXXXXXXXX /sirve para clonar un repositorio ya existente en la nube de github hacia la ruta especifica eb tu computador personal, donde las X son el URL que te da GITHUB del repositorio que quieres clonar.
+
+git push origin master /sirve para hacer la subida de los cambios desde la carpeta del proyecto en tu computador hacia github, te pedira las credenciales usuario y contraseña de githhub, en caso de ser hacia otra rama o branch solo debes cambiar la palabra master por el de la rama.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
